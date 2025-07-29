@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SMSGateway" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorPrimaryDark">@color/primary_blue_dark</item>
+        <item name="colorSurface">@color/primary_blue</item>
+        <item name="colorInsideSurface">@color/background_light</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="colorToggle">@color/white</item>
+        <item name="colorBackground">@color/background</item>
+    </style>
+    <style name="MyDatePickerTheme" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="materialCalendarStyle">@style/CustomCalendarStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/CustomMaterialButton</item>
+        <item name="buttonBarNegativeButtonStyle">@style/CustomMaterialButton</item>
+    </style>
+    <style name="CustomCalendarStyle" parent="Widget.MaterialComponents.MaterialCalendar">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.MaterialComponents.SmallComponent</item>
+    </style>
+    <style name="CustomMaterialButton" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

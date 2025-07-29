@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sms Gateway</string>
+    <string name="app_icon_desc">App Icon</string>
+    <string name="app_welcome_text">SMS Gateway App</string>
+    <string name="settings">Webhook Settings</string>
+    <string name="send_token_server">Send Token to Server</string>
+    <string name="send_token_telegram">Send to Telegram</string>
+    <string name="view_logs">View Logs</string>
+    <string name="toggle_theme">Toggle Theme</string>
+</resources>

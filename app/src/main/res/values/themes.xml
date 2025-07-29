@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SMSGateway" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorPrimaryVariant">@color/primary_blue_dark</item>
+        <item name="colorPrimaryDark">@color/primary_blue_dark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSurface">@color/primary_blue</item>
+        <item name="colorInsideSurface">@color/background_light</item>
+        <item name="colorOnSurface">@color/black</item>
+        <item name="colorToggle">@color/midday_sun</item>
+        <item name="colorBackground">@color/background</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+    </style>
+    <style name="MyDatePickerTheme" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="materialCalendarStyle">@style/CustomCalendarStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/CustomMaterialButton</item>
+        <item name="buttonBarNegativeButtonStyle">@style/CustomMaterialButton</item>
+    </style>
+    <style name="CustomCalendarStyle" parent="Widget.MaterialComponents.MaterialCalendar">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.MaterialComponents.SmallComponent</item>
+    </style>
+    <style name="CustomMaterialButton" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Button.Modern" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="backgroundTint">?attr/colorPrimary</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="elevation">6dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "146685237490",
+    "project_id": "sms-gateway-7063e",
+    "storage_bucket": "sms-gateway-7063e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146685237490:android:e130c670e984930c28d86b",
+        "android_client_info": {
+          "package_name": "com.intelix.smsgateway"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_Scf_57M9T-KBqy2h3TJnkCpQEQ93wjk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

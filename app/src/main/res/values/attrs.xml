@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorBackground" format="color"/>
+    <attr name="colorToggle" format="color"/>
+    <attr name="colorInsideSurface" format="color"/>
+    <attr name="colorActionBar" format="color"/>
+    <attr name="settingsImg" format="integer"/>
+</resources>
